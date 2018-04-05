@@ -1,0 +1,9 @@
+C:\Users\Den4ik\Documents\Visual Studio 2015\Projects\Towards_Adventures\UnitTestProgram\bin\Debug\UnitTestProgram.dll
+C:\Users\Den4ik\Documents\Visual Studio 2015\Projects\Towards_Adventures\UnitTestProgram\bin\Debug\UnitTestProgram.pdb
+C:\Users\Den4ik\Documents\Visual Studio 2015\Projects\Towards_Adventures\UnitTestProgram\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Den4ik\Documents\Visual Studio 2015\Projects\Towards_Adventures\UnitTestProgram\bin\Debug\Towards_Adventures.exe
+C:\Users\Den4ik\Documents\Visual Studio 2015\Projects\Towards_Adventures\UnitTestProgram\bin\Debug\Towards_Adventures.pdb
+C:\Users\Den4ik\Documents\Visual Studio 2015\Projects\Towards_Adventures\UnitTestProgram\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Den4ik\Documents\Visual Studio 2015\Projects\Towards_Adventures\UnitTestProgram\obj\Debug\UnitTestProgram.csprojResolveAssemblyReference.cache
+C:\Users\Den4ik\Documents\Visual Studio 2015\Projects\Towards_Adventures\UnitTestProgram\obj\Debug\UnitTestProgram.dll
+C:\Users\Den4ik\Documents\Visual Studio 2015\Projects\Towards_Adventures\UnitTestProgram\obj\Debug\UnitTestProgram.pdb

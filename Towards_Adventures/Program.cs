@@ -84,7 +84,7 @@ namespace Towards_Adventures
     public enum Document
     {
         Passport,
-        BirtchSertificate,
+        BirthSertificate,
     }
     /// <summary>
     /// Полное имя покупателя
@@ -155,7 +155,7 @@ namespace Towards_Adventures
         /// <summary>
         /// Тип вагона
         /// </summary>
-        public WagonType Wagon { get; set; }
+        public WagonType WagonType { get; set; }
         /// <summary>
         /// Номер вагона
         /// </summary>
