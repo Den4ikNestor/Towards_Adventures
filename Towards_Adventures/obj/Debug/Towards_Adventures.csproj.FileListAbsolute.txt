@@ -4,3 +4,6 @@ c:\users\den4ik\documents\visual studio 2015\Projects\Towards_Adventures\Towards
 c:\users\den4ik\documents\visual studio 2015\Projects\Towards_Adventures\Towards_Adventures\obj\Debug\Towards_Adventures.csprojResolveAssemblyReference.cache
 c:\users\den4ik\documents\visual studio 2015\Projects\Towards_Adventures\Towards_Adventures\obj\Debug\Towards_Adventures.exe
 c:\users\den4ik\documents\visual studio 2015\Projects\Towards_Adventures\Towards_Adventures\obj\Debug\Towards_Adventures.pdb
+C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\Towards_Adventures\bin\Debug\Towards_Adventures.exe.config
+C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\Towards_Adventures\obj\Debug\Towards_Adventures.exe
+C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\Towards_Adventures\obj\Debug\Towards_Adventures.pdb

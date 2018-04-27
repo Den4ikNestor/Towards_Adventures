@@ -86,6 +86,7 @@ namespace Graphic_Interface
                 EndPoint = textBox7.Text,
                 RestaurantFood = checkBox1.Checked,
                 Fridge = checkBox2.Checked,
+                FilledTime = DateTime.Now,
             };
         }
 
