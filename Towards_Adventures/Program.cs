@@ -24,9 +24,13 @@ namespace Towards_Adventures
         /// </summary>
         public PersonalData Person { get; set; }
         /// <summary>
-        /// Описание пути
+        /// Точка отправления
         /// </summary>
-        public List<WayPoint> WayPoints { get; set; }
+        public string BeginPoint { get; set; }
+        /// <summary>
+        /// Точка прибытия
+        /// </summary>
+        public string EndPoint { get; set; }
         /// <summary>
         /// Информация о поезде
         /// </summary>
@@ -40,9 +44,13 @@ namespace Towards_Adventures
         /// </summary>
         public Currency Currency { get; set; }
         /// <summary>
-        /// Дополнительные услуги
+        /// Ресторанная еда
         /// </summary>
-        public List<Services> AdditionalServices { get; set; }
+        public bool RestaurantFood { get; set; }
+        /// <summary>
+        /// Холодильник
+        /// </summary>
+        public bool Fridge { get; set; }
         /// <summary>
         /// Стоимость дополнительной услуги
         /// </summary>
@@ -56,7 +64,7 @@ namespace Towards_Adventures
         /// <summary>
         /// Пол
         /// </summary>
-        public string Sex { get; set; }
+        public Sex Sex { get; set; }
         /// <summary>
         /// Полное имя человека
         /// </summary>
@@ -85,6 +93,11 @@ namespace Towards_Adventures
     {
         Passport,
         BirthSertificate,
+    }
+    public enum Sex
+    {
+        Male,
+        Female,
     }
     /// <summary>
     /// Полное имя покупателя
@@ -178,14 +191,5 @@ namespace Towards_Adventures
     public enum Currency
     {
         Rubles
-    }
-    /// <summary>
-    /// Услуги
-    /// </summary>
-    public enum Services
-    {
-        WiFi,
-        RestaurantFood,
-        Fridge,
     }
 }
