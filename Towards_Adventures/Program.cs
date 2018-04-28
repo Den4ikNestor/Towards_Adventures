@@ -26,11 +26,11 @@ namespace Towards_Adventures
         /// <summary>
         /// Точка отправления
         /// </summary>
-        public string BeginPoint { get; set; }
+        public BeginPoint BeginPoint { get; set; }
         /// <summary>
         /// Точка прибытия
         /// </summary>
-        public string EndPoint { get; set; }
+        public EndPoint EndPoint { get; set; }
         /// <summary>
         /// Информация о поезде
         /// </summary>
@@ -55,6 +55,18 @@ namespace Towards_Adventures
         /// Стоимость дополнительной услуги
         /// </summary>
         public double AdditionalServicePrice { get; set; }
+    }
+
+    public enum BeginPoint
+    {
+        Ekaterinburg,
+        Moscow,
+    }
+
+    public enum EndPoint
+    {
+        Kazan,
+        Vladivostok,
     }
     /// <summary>
     /// Персональные данные
