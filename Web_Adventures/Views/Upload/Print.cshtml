@@ -1,0 +1,101 @@
+﻿@model Towards_Adventures.PurchaseTicketsDto
+
+@{
+    ViewBag.Title = "Upload";
+}
+
+<h2>Data from file with order</h2>
+
+<div>Last name: @Model.Person.FullName.LastName First name: @Model.Person.FullName.FirstName Patronymiv: @Model.Person.FullName.Patronymic</div>
+<div>Gender: @Model.Person.Sex</div>
+<div>Data birth: @Model.Person.DateBirth</div>
+
+<table class="table table-bordered table-hover">
+    <tbody>
+        <tr>
+            <th>
+                FirstName
+            </th>
+            <th>
+                LastName
+            </th>
+            <th>
+                Patronymic
+            </th>
+            <th>
+                Gender
+            </th>
+            <th>
+                DateBirth
+            </th>
+            <th>
+                DocumentType
+            </th>
+            <th>
+                Number
+            </th>
+            <th>
+                Series
+            </th>
+            <th>
+                BeginPoint
+            </th>
+            <th>
+                EndPoint
+            </th>
+            <th>
+                FilledTime
+            </th>
+            <th>
+                Fridge
+            </th>
+            <th>
+                RestaurantFood
+            </th>
+        </tr>
+        <tr>
+            <td>
+                @Model.Person.FullName.FirstName
+            </td>
+            <td>
+                @Model.Person.FullName.LastName
+            </td>
+            <td>
+                @Model.Person.FullName.Patronymic
+            </td>
+            <td>
+                @Model.Person.Sex
+            </td>
+            <td>
+                @Model.Person.DateBirth
+            </td>
+            <td>
+                @Model.Person.DocumentType
+            </td>
+            <td>
+                @Model.Person.Number
+            </td>
+            <td>
+                @Model.Person.Series
+            </td>
+            <td>
+                @Model.BeginPoint
+            </td>
+            <td>
+                @Model.EndPoint
+            </td>
+            <td>
+                @Model.FilledTime
+            </td>
+            <td>
+                @Model.Fridge
+            </td>
+            <td>
+                @Model.RestaurantFood
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<div><h4>Total cost of ticket @Model.Price</h4></div>
+<div><h5>Date Filled @Model.FilledTime</h5></div>

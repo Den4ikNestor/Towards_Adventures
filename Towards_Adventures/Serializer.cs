@@ -23,5 +23,10 @@ namespace Towards_Adventures
                 return (PurchaseTicketsDto)Xs.Deserialize(fileStream);
             }
         }
+
+        public static PurchaseTicketsDto LoadFromStream(Stream file)
+        {
+            return (PurchaseTicketsDto)Xs.Deserialize(file);
+        }
     }
 }

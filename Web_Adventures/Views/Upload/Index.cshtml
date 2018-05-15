@@ -1,0 +1,15 @@
+﻿@model Towards_Adventures.PurchaseTicketsDto
+
+@{
+    ViewBag.Title = "Загрузить поездку";
+}
+
+<h2>Index</h2>
+
+
+
+@using (Html.BeginForm("Print", "Upload", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <input type="file" name="file" />
+    <input type="submit" name="Submit" id="Submit" value="Upload" />
+}

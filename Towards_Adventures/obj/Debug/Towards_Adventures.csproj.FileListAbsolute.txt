@@ -4,3 +4,9 @@ c:\users\den4ik\documents\visual studio 2015\Projects\Towards_Adventures\Towards
 c:\users\den4ik\documents\visual studio 2015\Projects\Towards_Adventures\Towards_Adventures\obj\Debug\Towards_Adventures.csprojResolveAssemblyReference.cache
 c:\users\den4ik\documents\visual studio 2015\Projects\Towards_Adventures\Towards_Adventures\obj\Debug\Towards_Adventures.exe
 c:\users\den4ik\documents\visual studio 2015\Projects\Towards_Adventures\Towards_Adventures\obj\Debug\Towards_Adventures.pdb
+C:\Users\Den4ik\Downloads\Towards_Adventures-master\Towards_Adventures\obj\Debug\Towards_Adventures.pdb
+C:\Users\Den4ik\Downloads\Towards_Adventures-master\Towards_Adventures\bin\Debug\Towards_Adventures.dll.config
+C:\Users\Den4ik\Downloads\Towards_Adventures-master\Towards_Adventures\bin\Debug\Towards_Adventures.dll
+C:\Users\Den4ik\Downloads\Towards_Adventures-master\Towards_Adventures\bin\Debug\Towards_Adventures.pdb
+C:\Users\Den4ik\Downloads\Towards_Adventures-master\Towards_Adventures\obj\Debug\Towards_Adventures.csprojResolveAssemblyReference.cache
+C:\Users\Den4ik\Downloads\Towards_Adventures-master\Towards_Adventures\obj\Debug\Towards_Adventures.dll

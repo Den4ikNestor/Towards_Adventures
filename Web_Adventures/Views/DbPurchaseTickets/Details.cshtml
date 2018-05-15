@@ -1,0 +1,73 @@
+﻿@model Web_Adventures.Models.DbPurchaseTickets
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>DbPurchaseTickets</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FilledTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FilledTime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BeginPoint)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BeginPoint)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EndPoint)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EndPoint)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RestaurantFood)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RestaurantFood)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Fridge)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Fridge)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AdditionalServicePrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AdditionalServicePrice)
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

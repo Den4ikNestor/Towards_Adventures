@@ -1,0 +1,67 @@
+﻿@model IEnumerable<Web_Adventures.Models.DbPurchaseTickets>
+@{
+    ViewBag.Title = "Index";
+}
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FilledTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BeginPoint)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EndPoint)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RestaurantFood)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Fridge)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AdditionalServicePrice)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FilledTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BeginPoint)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EndPoint)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RestaurantFood)
+            </td>
+            <th>
+                @Html.DisplayFor(modelItem => item.Fridge)
+            </th>
+            <th>
+                @Html.DisplayFor(modelItem => item.AdditionalServicePrice)
+            </th>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
+</table>

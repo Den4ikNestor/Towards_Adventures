@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProgram", "UnitTest
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graphic_Interface", "Graphic_Interface\Graphic_Interface.csproj", "{E97DDC0A-194B-4890-9EB8-226AABC6A21A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web_Adventures", "Web_Adventures\Web_Adventures.csproj", "{21BB0362-5E7E-47B5-A4D1-B6D9870B98F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{E97DDC0A-194B-4890-9EB8-226AABC6A21A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E97DDC0A-194B-4890-9EB8-226AABC6A21A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E97DDC0A-194B-4890-9EB8-226AABC6A21A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21BB0362-5E7E-47B5-A4D1-B6D9870B98F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21BB0362-5E7E-47B5-A4D1-B6D9870B98F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21BB0362-5E7E-47B5-A4D1-B6D9870B98F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21BB0362-5E7E-47B5-A4D1-B6D9870B98F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
