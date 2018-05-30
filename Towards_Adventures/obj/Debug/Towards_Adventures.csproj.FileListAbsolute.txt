@@ -10,3 +10,9 @@ C:\Users\Den4ik\Downloads\Towards_Adventures-master\Towards_Adventures\bin\Debug
 C:\Users\Den4ik\Downloads\Towards_Adventures-master\Towards_Adventures\bin\Debug\Towards_Adventures.pdb
 C:\Users\Den4ik\Downloads\Towards_Adventures-master\Towards_Adventures\obj\Debug\Towards_Adventures.csprojResolveAssemblyReference.cache
 C:\Users\Den4ik\Downloads\Towards_Adventures-master\Towards_Adventures\obj\Debug\Towards_Adventures.dll
+C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\Towards_Adventures\bin\Debug\Towards_Adventures.dll.config
+C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\Towards_Adventures\bin\Debug\Towards_Adventures.dll
+C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\Towards_Adventures\bin\Debug\Towards_Adventures.pdb
+C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\Towards_Adventures\obj\Debug\Towards_Adventures.csprojResolveAssemblyReference.cache
+C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\Towards_Adventures\obj\Debug\Towards_Adventures.dll
+C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\Towards_Adventures\obj\Debug\Towards_Adventures.pdb

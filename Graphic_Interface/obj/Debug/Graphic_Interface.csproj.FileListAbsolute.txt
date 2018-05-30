@@ -22,3 +22,15 @@ C:\Users\Den4ik\Downloads\Towards_Adventures-master\Graphic_Interface\obj\Debug\
 C:\Users\Den4ik\Downloads\Towards_Adventures-master\Graphic_Interface\obj\Debug\Graphic_Interface.Form2.resources
 C:\Users\Den4ik\Downloads\Towards_Adventures-master\Graphic_Interface\obj\Debug\Graphic_Interface.Properties.Resources.resources
 C:\Users\Den4ik\Downloads\Towards_Adventures-master\Graphic_Interface\obj\Debug\Graphic_Interface.csproj.GenerateResource.Cache
+C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\Graphic_Interface\bin\Debug\Graphic_Interface.exe.config
+C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\Graphic_Interface\obj\Debug\Graphic_Interface.exe
+C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\Graphic_Interface\obj\Debug\Graphic_Interface.pdb
+C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\Graphic_Interface\bin\Debug\Graphic_Interface.exe
+C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\Graphic_Interface\bin\Debug\Graphic_Interface.pdb
+C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\Graphic_Interface\bin\Debug\Towards_Adventures.dll
+C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\Graphic_Interface\bin\Debug\Towards_Adventures.pdb
+C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\Graphic_Interface\obj\Debug\Graphic_Interface.csprojResolveAssemblyReference.cache
+C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\Graphic_Interface\obj\Debug\Graphic_Interface.Form1.resources
+C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\Graphic_Interface\obj\Debug\Graphic_Interface.Form2.resources
+C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\Graphic_Interface\obj\Debug\Graphic_Interface.Properties.Resources.resources
+C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\Graphic_Interface\obj\Debug\Graphic_Interface.csproj.GenerateResource.Cache

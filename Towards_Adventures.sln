@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graphic_Interface", "Graphi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web_Adventures", "Web_Adventures\Web_Adventures.csproj", "{21BB0362-5E7E-47B5-A4D1-B6D9870B98F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LicenseMaker", "LicenseMaker\LicenseMaker.csproj", "{415F3417-4281-4EE2-8E9B-A3461A71C611}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{21BB0362-5E7E-47B5-A4D1-B6D9870B98F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21BB0362-5E7E-47B5-A4D1-B6D9870B98F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21BB0362-5E7E-47B5-A4D1-B6D9870B98F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{415F3417-4281-4EE2-8E9B-A3461A71C611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{415F3417-4281-4EE2-8E9B-A3461A71C611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{415F3417-4281-4EE2-8E9B-A3461A71C611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{415F3417-4281-4EE2-8E9B-A3461A71C611}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

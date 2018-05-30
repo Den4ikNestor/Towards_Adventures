@@ -1,0 +1,8 @@
+C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\LicenseMaker\bin\Debug\LicenseMaker.exe.config
+C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\LicenseMaker\bin\Debug\LicenseMaker.exe
+C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\LicenseMaker\bin\Debug\LicenseMaker.pdb
+C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\LicenseMaker\bin\Debug\Towards_Adventures.dll
+C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\LicenseMaker\bin\Debug\Towards_Adventures.pdb
+C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\LicenseMaker\obj\Debug\LicenseMaker.csprojResolveAssemblyReference.cache
+C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\LicenseMaker\obj\Debug\LicenseMaker.exe
+C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\LicenseMaker\obj\Debug\LicenseMaker.pdb
