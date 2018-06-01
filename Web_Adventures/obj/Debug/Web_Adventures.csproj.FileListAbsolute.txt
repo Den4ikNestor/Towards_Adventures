@@ -204,3 +204,5 @@ C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\Web_Adventures\bin\ru\Micros
 C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\Web_Adventures\obj\Debug\Web_Adventures.csprojResolveAssemblyReference.cache
 C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\Web_Adventures\obj\Debug\Web_Adventures.dll
 C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\Web_Adventures\obj\Debug\Web_Adventures.pdb
+C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\Web_Adventures\bin\EPPlus.dll
+C:\Users\Den4ik\Documents\GitHub\Towards_Adventures\Web_Adventures\bin\EPPlus.xml

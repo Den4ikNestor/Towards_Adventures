@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
+﻿using System.Data.Entity;
 using System.Linq;
 using System.Net;
-using System.Web;
 using System.Web.Mvc;
 using Web_Adventures.Models;
+using OfficeOpenXml;
+using System.IO;
+using System.Web.Hosting;
 
 namespace Web_Adventures.Controllers
 {
@@ -112,6 +112,40 @@ namespace Web_Adventures.Controllers
             db.orderRequest.Remove(dbPurchaseTicket);
             db.SaveChanges();
             return RedirectToAction("Index");
+        }
+
+        public ActionResult Save(int? id)
+        {
+            var dbcontext = new ApplicationDbContext();
+            var order = dbcontext.orderRequest.Find(id);
+
+            ExcelPackage pkg;
+            using (var stream = System.IO.File.OpenRead(HostingEnvironment.ApplicationPhysicalPath + "information.xlsx"))
+            {
+                pkg = new ExcelPackage(stream);
+                stream.Dispose();
+            }
+
+            var worksheet = pkg.Workbook.Worksheets[1];
+            worksheet.Cells[4, 2].Value = "Begin point:";
+            worksheet.Cells[4, 3].Value = order.BeginPoint;
+            worksheet.Cells[5, 2].Value = "End point:";
+            worksheet.Cells[5, 3].Value = order.EndPoint;
+            worksheet.Cells[6, 2].Value = "Price (rubles):";
+            worksheet.Cells[6, 3].Value = order.Price;
+            worksheet.Cells[7, 2].Value = "Restaurant food:";
+            worksheet.Cells[7, 3].Value = order.RestaurantFood;
+            worksheet.Cells[8, 2].Value = "Fridge:";
+            worksheet.Cells[8, 3].Value = order.Fridge;
+            worksheet.Cells[9, 2].Value = "Additional service price (rubles):";
+            worksheet.Cells[9, 3].Value = order.AdditionalServicePrice;
+            worksheet.Cells[5, 1].Value = "Filled time:";
+            worksheet.Cells[6, 1].Value = order.FilledTime.ToString();
+
+            worksheet.Cells.AutoFitColumns();
+            var ms = new MemoryStream();
+            pkg.SaveAs(ms);
+            return File(ms.ToArray(), "application/ooxml", (order.FilledTime.ToString()).Replace(" ", "") + ".xlsx");
         }
 
         protected override void Dispose(bool disposing)
